@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <div>
+        <label>Username</label> <br>
+        <input type="text" placeholder="Enter your username">
+    </div>
+    <br>
+
+    <div>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="Enter your password">
+    </div>
+    <br>
+
+    <div>
+        <label for="message">Message</label> <br>
+        <textarea
+                id="message"
+                placeholder="Enter your massage"
+                rows="10"
+                cols="50">
+        </textarea>
+    </div>
+    <br>
+
+    <!--Select field eka-->
+    <div>
+        <label for="language">Select your language</label>
+        <select id="language">
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="GO">GO</option> <!--must give the value-->
+        </select>
+    </div>
+    <br>
+
+    <!--option group-->
+    <div>
+        <label for="tech">Select your tech</label>
+        <select id="tech">
+
+            <optgroup label="FrontEnd Frameworks">
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="C#">C#</option>
+                <option value="GO">GO</option>
+            </optgroup>
+
+            <optgroup label="BackEnd Frameworks">
+                <option value="React">React</option>
+                <option value="VUE">VUE</option>
+                <option value="Angular">Angular</option>
+                <option value="NewJS">NewJS</option>
+            </optgroup>
+
+            <optgroup label="Frameworks">
+                <option value="Sprint">Sprint</option>
+                <option value="Sprint Boot">Sprint Boot</option>
+                <option value="Express">Express</option>
+            </optgroup>
+        </select>
+    </div>
+    <br>
+
+    <!--data list-->
+    <div>
+        <lable for="country search"> Select your country</lable>
+        <input type="text" placeholder="Enter your country" list="country">
+        <datalist id="country">
+            <option value="SriLanka">SriLanka</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UAE">UAE</option>
+            <option value="UK">UK</option>
+            <option value="AUS">AUS</option>
+            <option value="NED">NED</option>
+        </datalist>
+    </div>
+    <br>
+
+
+    <fieldset>
+        <legend>Select your gender</legend>
+        <input type="radio" id="Male" name="gender"> <label for="Male">Male</label>
+        <input type="radio" id="Female" name="gender"><label for="Female">Female</label>
+    </fieldset>
+    <br><br>
+
+    <!--button-->
+    <!--    <input type="button" value="Click">-->
+    <!--    <input type="submit" value="Submit">-->
+    <!--    <input type="reset" value="Reset">-->
+    <!--    <br><br>-->
+
+    <!--button-->
+
+    <button type="click">Click</button>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <br><br>
+
+    <div>
+
+        <label for="abc">select abc</label>
+        <select name="" id="abc">
+
+            <optgroup label="abc">
+
+
+                <option value="">a</option>
+                <option value="">b</option>
+                <option valu0e="">c</option>
+
+            </optgroup>
+        </select>
+    </div>
+
+
+</form>
+</body>
+</html>
